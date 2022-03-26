@@ -22,6 +22,6 @@ do this if you added new files:
 git add . 
 
 everytime you want to make changes to github:
-git commit-am 'commit messages goes here' 
+git commit -am'commit messages goes here' 
 git push 
 
