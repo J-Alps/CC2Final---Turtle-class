@@ -9,7 +9,7 @@ function setup() {
 
 
 
-  var density = 50
+  var density = 200
   var space = width / density
 
   for (var x = 0; x < width; x+= space){
@@ -82,6 +82,6 @@ class turtle {
 
   display(){
     fill(this.r,this.g,this.b)
-    circle(this.x,this.y,5)
+    circle(this.x,this.y,1)
   }
 }
